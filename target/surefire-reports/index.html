@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MyTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">MyTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MyTestSuite" class="navigator-link ">
+                    <span>E:\DemoProjects\apiDemo\src\main\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MyTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MyTestSuite" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MyTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MyTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MyTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MyTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MyTestSuite" class="hide-methods passed suite-MyTestSuite"> (hide)</a> <!-- hide-methods passed suite-MyTestSuite -->
+                      <a href="#" panel-name="suite-MyTestSuite" class="show-methods passed suite-MyTestSuite"> (show)</a> <!-- show-methods passed suite-MyTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MyTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="GetBook(hij1122)">GetBook(hij1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="GetBook(def1120)">GetBook(def1120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="GetBook(ghk1121)">GetBook(ghk1121)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="addBook(ghk, 1121)">addBook(ghk, 1121)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="addBook(def, 1120)">addBook(def, 1120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="addBook(hij, 1122)">addBook(hij, 1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="convertData">convertData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="deleteBook(hij1122)">deleteBook(hij1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="deleteBook(def1120)">deleteBook(def1120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.LibraryOperationsTest" class="method navigator-link" hash-for-method="deleteBook(ghk1121)">deleteBook(ghk1121)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyTestSuite" title="com.test.OtherTestngTest" class="method navigator-link" hash-for-method="invocationCountTest">invocationCountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MyTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MyTestSuite" class="panel MyTestSuite">
+          <div class="suite-MyTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.LibraryOperationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBook(hij1122)">
+                  </a> <!-- GetBook(hij1122) -->
+                  <span class="method-name">GetBook</span>
+                  <span class="parameters">(hij1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBook(def1120)">
+                  </a> <!-- GetBook(def1120) -->
+                  <span class="method-name">GetBook</span>
+                  <span class="parameters">(def1120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetBook(ghk1121)">
+                  </a> <!-- GetBook(ghk1121) -->
+                  <span class="method-name">GetBook</span>
+                  <span class="parameters">(ghk1121)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBook(ghk, 1121)">
+                  </a> <!-- addBook(ghk, 1121) -->
+                  <span class="method-name">addBook</span>
+                  <span class="parameters">(ghk,1121)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBook(def, 1120)">
+                  </a> <!-- addBook(def, 1120) -->
+                  <span class="method-name">addBook</span>
+                  <span class="parameters">(def,1120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBook(hij, 1122)">
+                  </a> <!-- addBook(hij, 1122) -->
+                  <span class="method-name">addBook</span>
+                  <span class="parameters">(hij,1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBook(hij1122)">
+                  </a> <!-- deleteBook(hij1122) -->
+                  <span class="method-name">deleteBook</span>
+                  <span class="parameters">(hij1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBook(def1120)">
+                  </a> <!-- deleteBook(def1120) -->
+                  <span class="method-name">deleteBook</span>
+                  <span class="parameters">(def1120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBook(ghk1121)">
+                  </a> <!-- deleteBook(ghk1121) -->
+                  <span class="method-name">deleteBook</span>
+                  <span class="parameters">(ghk1121)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-passed -->
+          <div class="suite-MyTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.OtherTestngTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="convertData">
+                  </a> <!-- convertData -->
+                  <span class="method-name">convertData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invocationCountTest">
+                  </a> <!-- invocationCountTest -->
+                  <span class="method-name">invocationCountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyTestSuite-class-passed -->
+        </div> <!-- panel MyTestSuite -->
+        <div panel-name="test-xml-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\DemoProjects\apiDemo\src\main\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MyTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;setEnvironment&quot; value=&quot;https://rahulshettyacademy.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MyTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.LibraryOperationsTest&quot;/&gt;
+      &lt;class name=&quot;com.test.OtherTestngTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyTest --&gt;
+&lt;/suite&gt; &lt;!-- MyTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MyTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Delete-BookData</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">OtherTC</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">convertData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invocationCountTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">UpdateBookData</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MyTestSuite');
+function tableData_MyTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addBook')
+data.setCell(0, 2, 'com.test.LibraryOperationsTest')
+data.setCell(0, 3, 2053);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addBook')
+data.setCell(1, 2, 'com.test.LibraryOperationsTest')
+data.setCell(1, 3, 708);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'deleteBook')
+data.setCell(2, 2, 'com.test.LibraryOperationsTest')
+data.setCell(2, 3, 693);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GetBook')
+data.setCell(3, 2, 'com.test.LibraryOperationsTest')
+data.setCell(3, 3, 685);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addBook')
+data.setCell(4, 2, 'com.test.LibraryOperationsTest')
+data.setCell(4, 3, 653);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteBook')
+data.setCell(5, 2, 'com.test.LibraryOperationsTest')
+data.setCell(5, 3, 610);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GetBook')
+data.setCell(6, 2, 'com.test.LibraryOperationsTest')
+data.setCell(6, 3, 610);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteBook')
+data.setCell(7, 2, 'com.test.LibraryOperationsTest')
+data.setCell(7, 3, 608);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'GetBook')
+data.setCell(8, 2, 'com.test.LibraryOperationsTest')
+data.setCell(8, 3, 547);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invocationCountTest')
+data.setCell(9, 2, 'com.test.OtherTestngTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invocationCountTest')
+data.setCell(10, 2, 'com.test.OtherTestngTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'invocationCountTest')
+data.setCell(11, 2, 'com.test.OtherTestngTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'invocationCountTest')
+data.setCell(12, 2, 'com.test.OtherTestngTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'invocationCountTest')
+data.setCell(13, 2, 'com.test.OtherTestngTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'invocationCountTest')
+data.setCell(14, 2, 'com.test.OtherTestngTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'invocationCountTest')
+data.setCell(15, 2, 'com.test.OtherTestngTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'invocationCountTest')
+data.setCell(16, 2, 'com.test.OtherTestngTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'invocationCountTest')
+data.setCell(17, 2, 'com.test.OtherTestngTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invocationCountTest')
+data.setCell(18, 2, 'com.test.OtherTestngTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'convertData')
+data.setCell(19, 2, 'com.test.OtherTestngTest')
+data.setCell(19, 3, 0);
+window.suiteTableData['MyTestSuite']= { tableData: data, tableDiv: 'times-div-MyTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-MyTestSuite">
+              </div> <!-- times-div-MyTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MyTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MyTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.LibraryOperationsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addBook(def, 1120)</span>
+                <span class="method-start">271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">2327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addBook(ghk, 1121)</span>
+                <span class="method-start">2328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">2982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addBook(hij, 1122)</span>
+                <span class="method-start">2982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">3709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetBook(def1120)</span>
+                <span class="method-start">3710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">4396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetBook(ghk1121)</span>
+                <span class="method-start">4397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">5008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetBook(hij1122)</span>
+                <span class="method-start">5009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBook(def1120)</span>
+                <span class="method-start">5557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">5557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">6251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteBook(ghk1121)</span>
+                <span class="method-start">6251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupURI(https://rahulshettyacademy.com)</span>
+                <span class="method-start">6859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteBook(hij1122)</span>
+                <span class="method-start">6860 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.OtherTestngTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">convertData</span>
+                <span class="method-start">7471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7472 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invocationCountTest</span>
+                <span class="method-start">7480 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
