@@ -35,7 +35,7 @@ public class LibraryOperationsTest {
 							.then().log().all().assertThat().statusCode(200)
 								.extract().response().asString();
 	
-	   JsonPath js = Reusable.RawToJson(RespAddBook);
+	   JsonPath js = Reusable.rawToJson(RespAddBook);
 	   
 	   String ID = js.getString("ID");
 	   String Msg = js.getString("Msg");
@@ -48,7 +48,7 @@ public class LibraryOperationsTest {
 	   
 	//GetBook by ID 
 	@Test (dependsOnMethods="addBook", dataProvider= "BookID", groups= "UpdateBookData",priority=1)
-	public void GetBook(String ID) {
+	public void getBook(String ID) {
 		String RespUpdateBook=given().log().all().param("ID", bookID)
 		.when().get("Library/GetBook.php")
 		.then().log().all().assertThat().statusCode(200).extract().response().asString();
@@ -67,7 +67,7 @@ public class LibraryOperationsTest {
 		.when().delete("Library/DeleteBook.php")
 		.then().log().all().assertThat().statusCode(200).extract().response().asString();
 		
-		JsonPath js = Reusable.RawToJson(RespDeleteBook);
+		JsonPath js = Reusable.rawToJson(RespDeleteBook);
 		String Message = js.getString("msg");
 		
 		//validate result 
@@ -76,7 +76,7 @@ public class LibraryOperationsTest {
 	
 	//Data provider addBook to create unique book ID 
 	@DataProvider(name = "TDAddBook")
-	public Object[][] getdataAddBook() {
+	public Object[][] getDataAddBook() {
 		return new Object[][] {{"def",1120},{"ghk",1121},{"hij",1122}} ;
 	}
 	

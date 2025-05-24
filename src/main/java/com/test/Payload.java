@@ -1,7 +1,7 @@
 package com.test;
 
 public class Payload {
-	public static String AddPlace() {
+	public static String addPlace() {
 		return "{\r\n"
 				+ "  \"location\": {\r\n"
 				+ "    \"lat\": -38.383494,\r\n"
@@ -21,7 +21,7 @@ public class Payload {
 	}
 
 	
-	public static String BookPrice() {
+	public static String bookPrice() {
 		return "{\r\n"
 				+ "\r\n"
 				+ "\"dashboard\": {\r\n"

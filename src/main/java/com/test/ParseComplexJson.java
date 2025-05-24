@@ -8,7 +8,7 @@ public class ParseComplexJson {
 	
 	public static void main (String args[]) {
 	
-	JsonPath js = Reusable.RawToJson(Payload.BookPrice());	
+	JsonPath js = Reusable.rawToJson(Payload.bookPrice());	
 	
 	//1. Print No of courses returned by API
 	

@@ -15,11 +15,11 @@ public class Basics {
 		Reusable rs = new Reusable();
 
 		// Add Place API
-		String response = given().log().all().queryParam("key", "qaclick123").body(Payload.AddPlace()).when()
+		String response = given().log().all().queryParam("key", "qaclick123").body(Payload.addPlace()).when()
 				.post("maps/api/place/add/json").then().assertThat().statusCode(200).body("scope", equalTo("APP"))
 				.header("Server", "Apache/2.4.52 (Ubuntu)").extract().response().asString();
 
-		JsonPath js = rs.RawToJson(response);
+		JsonPath js = rs.rawToJson(response);
 		String place_id = js.getString("place_id");
 		System.out.println("Full Response: " + response);
 		System.out.println("Extracted Place ID: " + place_id);
@@ -44,7 +44,7 @@ public class Basics {
 							.then().assertThat().log().all().statusCode(200).extract().response()
 							.asString();
 
-		JsonPath js1 = rs.RawToJson(response2);
+		JsonPath js1 = rs.rawToJson(response2);
 		String address = js1.getString("address");
 		System.out.println("Extracted Address: " + address);
 
