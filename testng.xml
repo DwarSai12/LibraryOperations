@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="MyTestSuite">
 
-<listeners>
-<listener class-name="com.qa.ExtentReportListener.ExtentReportListener"></listener>
-</listeners>
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
 
 	<parameter name="setEnvironment" value="https://rahulshettyacademy.com"></parameter>
 	<test name="MyTest">

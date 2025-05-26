@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T12:51:26 BST" name="MyTestSuite" finished-at="2025-05-24T12:51:33 BST" duration-ms="7525">
+  <suite started-at="2025-05-26T14:21:38 BST" name="MyTestSuite" finished-at="2025-05-26T14:21:44 BST" duration-ms="6238">
     <groups>
       <group name="Delete-BookData">
-        <method signature="LibraryOperationsTest.deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@130161f7]" name="deleteBook" class="com.test.LibraryOperationsTest"/>
+        <method signature="LibraryOperationsTest.deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@1ed6388a]" name="deleteBook" class="com.test.LibraryOperationsTest"/>
       </group> <!-- Delete-BookData -->
       <group name="UpdateBookData">
-        <method signature="LibraryOperationsTest.addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" name="addBook" class="com.test.LibraryOperationsTest"/>
-        <method signature="LibraryOperationsTest.GetBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@130161f7]" name="GetBook" class="com.test.LibraryOperationsTest"/>
+        <method signature="LibraryOperationsTest.addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" name="addBook" class="com.test.LibraryOperationsTest"/>
+        <method signature="LibraryOperationsTest.getBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@1ed6388a]" name="getBook" class="com.test.LibraryOperationsTest"/>
       </group> <!-- UpdateBookData -->
       <group name="OtherTC">
-        <method signature="OtherTestngTest.convertData()[pri:0, instance:com.test.OtherTestngTest@32eff876]" name="convertData" class="com.test.OtherTestngTest"/>
-        <method signature="OtherTestngTest.invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" name="invocationCountTest" class="com.test.OtherTestngTest"/>
+        <method signature="OtherTestngTest.convertData()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" name="convertData" class="com.test.OtherTestngTest"/>
+        <method signature="OtherTestngTest.invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" name="invocationCountTest" class="com.test.OtherTestngTest"/>
       </group> <!-- OtherTC -->
     </groups>
-    <test started-at="2025-05-24T12:51:26 BST" name="MyTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="7525">
+    <test started-at="2025-05-26T14:21:38 BST" name="MyTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="6238">
       <class name="com.test.OtherTestngTest">
-        <test-method signature="convertData()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="convertData" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="convertData()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="convertData" finished-at="2025-05-26T14:21:44 BST" duration-ms="1" status="PASS">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: "200A"]]>
@@ -26,13 +26,11 @@
             <full-stacktrace>
               <![CDATA[java.lang.NumberFormatException: For input string: "200A"
 at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-at java.base/java.lang.Integer.parseInt(Integer.java:668)
-at java.base/java.lang.Integer.parseInt(Integer.java:786)
+at java.base/java.lang.Integer.parseInt(Integer.java:662)
+at java.base/java.lang.Integer.parseInt(Integer.java:778)
 at com.test.OtherTestngTest.convertData(OtherTestngTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -41,7 +39,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -67,49 +65,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- convertData -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="1" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="1" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
-        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@32eff876]" started-at="2025-05-24T12:51:33 BST" name="invocationCountTest" finished-at="2025-05-24T12:51:33 BST" duration-ms="1" status="PASS">
+        <test-method signature="invocationCountTest()[pri:0, instance:com.test.OtherTestngTest@6e6f2380]" started-at="2025-05-26T14:21:44 BST" name="invocationCountTest" finished-at="2025-05-26T14:21:44 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invocationCountTest -->
       </class> <!-- com.test.OtherTestngTest -->
       <class name="com.test.LibraryOperationsTest">
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:26 BST" name="setupURI" finished-at="2025-05-24T12:51:26 BST" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:38 BST" name="setupURI" finished-at="2025-05-26T14:21:38 BST" duration-ms="240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +118,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method signature="addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:26 BST" name="addBook" data-provider="TDAddBook" finished-at="2025-05-24T12:51:28 BST" duration-ms="2053" status="PASS">
+        <test-method signature="addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:38 BST" name="addBook" data-provider="TDAddBook" finished-at="2025-05-26T14:21:40 BST" duration-ms="1840" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +134,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:28 BST" name="setupURI" finished-at="2025-05-24T12:51:28 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:40 BST" name="setupURI" finished-at="2025-05-26T14:21:40 BST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +145,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method signature="addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:28 BST" name="addBook" data-provider="TDAddBook" finished-at="2025-05-24T12:51:29 BST" duration-ms="653" status="PASS">
+        <test-method signature="addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:40 BST" name="addBook" data-provider="TDAddBook" finished-at="2025-05-26T14:21:40 BST" duration-ms="523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +161,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-        <test-method signature="addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:29 BST" name="addBook" data-provider="TDAddBook" finished-at="2025-05-24T12:51:30 BST" duration-ms="708" status="PASS">
+        <test-method signature="addBook(java.lang.String,int)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:40 BST" name="addBook" data-provider="TDAddBook" finished-at="2025-05-26T14:21:41 BST" duration-ms="517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,7 +177,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBook -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:29 BST" name="setupURI" finished-at="2025-05-24T12:51:29 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:40 BST" name="setupURI" finished-at="2025-05-26T14:21:40 BST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +188,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:30 BST" name="setupURI" finished-at="2025-05-24T12:51:30 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:41 BST" name="setupURI" finished-at="2025-05-26T14:21:41 BST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -201,7 +199,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method signature="GetBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:30 BST" name="GetBook" data-provider="BookID" finished-at="2025-05-24T12:51:30 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="685" status="PASS">
+        <test-method signature="getBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:41 BST" name="getBook" data-provider="BookID" finished-at="2025-05-26T14:21:42 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -211,19 +209,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBook -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:30 BST" name="setupURI" finished-at="2025-05-24T12:51:30 BST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://rahulshettyacademy.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupURI -->
-        <test-method signature="GetBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:30 BST" name="GetBook" data-provider="BookID" finished-at="2025-05-24T12:51:31 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="610" status="PASS">
+        </test-method> <!-- getBook -->
+        <test-method signature="getBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:42 BST" name="getBook" data-provider="BookID" finished-at="2025-05-26T14:21:42 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,8 +220,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBook -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:31 BST" name="setupURI" finished-at="2025-05-24T12:51:31 BST" duration-ms="1" status="PASS">
+        </test-method> <!-- getBook -->
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:42 BST" name="setupURI" finished-at="2025-05-26T14:21:42 BST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,7 +232,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method signature="GetBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:31 BST" name="GetBook" data-provider="BookID" finished-at="2025-05-24T12:51:31 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="547" status="PASS">
+        <test-method signature="getBook(java.lang.String)[pri:1, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:42 BST" name="getBook" data-provider="BookID" finished-at="2025-05-26T14:21:43 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -255,8 +242,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBook -->
-        <test-method signature="deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:31 BST" name="deleteBook" data-provider="BookID" finished-at="2025-05-24T12:51:32 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="693" status="PASS">
+        </test-method> <!-- getBook -->
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:42 BST" name="setupURI" finished-at="2025-05-26T14:21:42 BST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupURI -->
+        <test-method signature="deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:43 BST" name="deleteBook" data-provider="BookID" finished-at="2025-05-26T14:21:43 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="508" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,7 +265,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBook -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:31 BST" name="setupURI" finished-at="2025-05-24T12:51:31 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:43 BST" name="setupURI" finished-at="2025-05-26T14:21:43 BST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,7 +276,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method signature="deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:32 BST" name="deleteBook" data-provider="BookID" finished-at="2025-05-24T12:51:33 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="608" status="PASS">
+        <test-method signature="deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:43 BST" name="deleteBook" data-provider="BookID" finished-at="2025-05-26T14:21:44 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,7 +287,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBook -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:32 BST" name="setupURI" finished-at="2025-05-24T12:51:32 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:43 BST" name="setupURI" finished-at="2025-05-26T14:21:43 BST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -300,7 +298,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:33 BST" name="setupURI" finished-at="2025-05-24T12:51:33 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupURI(java.lang.String)[pri:0, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:44 BST" name="setupURI" finished-at="2025-05-26T14:21:44 BST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -311,7 +309,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupURI -->
-        <test-method signature="deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@130161f7]" started-at="2025-05-24T12:51:33 BST" name="deleteBook" data-provider="BookID" finished-at="2025-05-24T12:51:33 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="610" status="PASS">
+        <test-method signature="deleteBook(java.lang.String)[pri:2, instance:com.test.LibraryOperationsTest@1ed6388a]" started-at="2025-05-26T14:21:44 BST" name="deleteBook" data-provider="BookID" finished-at="2025-05-26T14:21:44 BST" depends-on-methods="com.test.LibraryOperationsTest.addBook" duration-ms="509" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -2,9 +2,12 @@ package com.test;
 
 import org.testng.Assert;
 
+import com.test.resources.Payload;
+import com.test.resources.Reusable;
+
 import io.restassured.path.json.JsonPath;
 
-public class ParseComplexJson {
+public class ParseComplexJsonTest {
 	
 	public static void main (String args[]) {
 	

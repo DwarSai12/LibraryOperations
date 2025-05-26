@@ -1,8 +1,4 @@
 E:\DemoProjects\apiDemo\src\main\java\com\qa\ExtentReportListener\ExtentReportListener.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\Basics.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\LibraryOperationsTest.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\OtherTestngTest.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\parameter.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\ParseComplexJson.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\Payload.java
-E:\DemoProjects\apiDemo\src\main\java\com\test\Reusable.java
+E:\DemoProjects\apiDemo\src\main\java\com\test\resources\Basics.java
+E:\DemoProjects\apiDemo\src\main\java\com\test\resources\Payload.java
+E:\DemoProjects\apiDemo\src\main\java\com\test\resources\Reusable.java

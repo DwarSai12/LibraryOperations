@@ -1,4 +1,4 @@
-package com.test;
+package com.test.resources;
 
 import io.restassured.path.json.JsonPath;
 
